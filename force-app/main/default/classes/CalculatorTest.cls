@@ -18,4 +18,10 @@ public class CalculatorTest {
         Integer result = Calculator.multiplyNumbers(10, 5);
         System.assertEquals(50, result, 'Multiplication result should be 50');
     }
+    
+    @isTest
+    static void testDivideNumbers(){
+        Integer result=Calculator.divideNumbers(4, 2);
+        System.assertEquals(2,result,'Divide result should be 2');
+    }
 }

@@ -11,4 +11,8 @@ public class Calculator {
     public static Integer multiplyNumbers(Integer num1, Integer num2) {
         return num1 * num2;
     }
+    public static Integer divideNumbers(Integer num1,Integer num2){
+        //System.debug(num1/num2);
+        return num1/num2;
+    }
 }
